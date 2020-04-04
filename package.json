@@ -4,7 +4,7 @@
   "description": "Ven-Diagram",
   "main": "index.js",
   "scripts": {
-    "compile-scss": "sass style.scss styles.css"
+    "compile-scss": "sass styles.scss styles.css"
   },
   "repository": {
     "type": "git",
