@@ -1,5 +1,7 @@
+@import './variables';
+
 .circle {
-	border: .2em solid #000;
+	border: .2em solid $black;
 	border-radius: 50%;
 	width: 40em;
 	height: 35em;
@@ -13,5 +15,88 @@
 		display: table-cell;
 		vertical-align: middle;
 		font-weight: bold;
+	}
+}
+
+// ********************************************************
+// 						CIRCLE 1:
+// ********************************************************
+
+#c1 {
+	top: 0;
+	left: 0;
+	background-color: $circle1;
+
+	#collection {
+		max-width: 260px;
+		/*border: 1px solid red;*/
+		height: 400px;
+		margin-left: 75px;
+	}
+}
+
+// ********************************************************
+// 						CIRCLE 2:
+// ********************************************************
+
+#c2 {
+	top: 0;
+	left: 25em;
+	background-color: rgba(0, 255, 0, .25);
+
+	#collection {
+		margin-left: 15em;
+		max-width: 250px;
+		/*border: 1px solid red;*/
+		height: 400px;
+	}
+
+	p {
+		padding-left: 5em;
+		font-weight: bold;
+	}
+}
+
+// ********************************************************
+// 						CIRCLE 3:
+// ********************************************************
+
+#c3 {
+	top: 20rem;
+	left: 10rem;
+	background-color: rgba(0, 0, 255, 0.25);
+
+	p {
+		padding-top: 30em;
+		padding-left: 3em;
+		font-weight: bold;
+	}
+}
+
+// ********************************************************
+// 						JOINS:
+// ********************************************************
+
+.joined {
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#j12 {
+	top: 2em;
+	left: 20em;
+	width: 25em;
+	height: 7em;
+	padding-top: 3em;
+	font-weight: bold;
+
+	#collection {
+		/*border: 1px solid red;*/
+		max-width: 120px;
+		margin-left: 101px;
+		height: 300px;
+		font-weight: normal;
 	}
 }

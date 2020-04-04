@@ -103,6 +103,9 @@
 	font-weight: normal;
 }
 
+
+
+
 .terms_container {
 	border: 1px solid black;
 	margin: 0 auto;
@@ -131,11 +134,6 @@ r {
 wr {
 	color: red;
 	font-weight: bold;
-}
-
-h3 {
-	text-align: center;
-	margin: 0 auto;
 }
 
 psy {

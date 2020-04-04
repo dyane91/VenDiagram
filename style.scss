@@ -1,0 +1,107 @@
+@import './styles/circles';
+@import './styles/variables';
+@import './styles/buttons';
+
+#venn {
+	width: 65em;
+	margin: .5em auto;
+	padding: 1em;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+
+	background-color: #fff;
+	height: 40em;
+	font-size: 80%;
+
+	span {
+		display: none;
+	}
+}
+
+.terms_container {
+	border: 1px solid black;
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+}
+
+term {
+	padding: 1px 2px;
+	margin: 0 3px;
+	cursor: move;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+table {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+r {
+	color: green;
+	font-weight: bold;
+}
+
+wr {
+	color: red;
+	font-weight: bold;
+}
+
+psy {
+	width: 225px;
+	height: 400px;
+	zoom: 25%;
+	display: none;
+	margin: 0 auto;
+	z-index: 2;
+	-moz-transform: scale(.25);
+	position: relative;
+	background-image: url(https://estelle.github.io/10/files/sprite.png);
+	-webkit-animation: gangham 4s steps(23, start) infinite,
+		movearound 12s steps(69, end) infinite 44ms;
+	animation: gangham 4s steps(23, start) infinite,
+		movearound 12s steps(69, end) infinite alternate 44ms;
+	-webkit-animation-direction: normal, alternate;
+	animation-direction: normal, alternate;
+}
+
+@-webkit-keyframes gangham {
+	0% {
+		background-position: 0 0
+	}
+
+	100% {
+		background-position: -5175px 0
+	}
+}
+
+@keyframes gangham {
+	0% {
+		background-position: 0 0
+	}
+
+	100% {
+		background-position: -5175px 0
+	}
+}
+
+@-webkit-keyframes movearound {
+	0% {
+		-webkit-transform: translatex(0)
+	}
+
+	100% {
+		-webkit-transform: translatex(600px);
+	}
+}
+
+@keyframes movearound {
+	0% {
+		transform: translatex(0)
+	}
+
+	100% {
+		transform: translatex(600px);
+	}
+}
