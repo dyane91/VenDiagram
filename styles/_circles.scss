@@ -42,7 +42,7 @@
 #c2 {
 	top: 0;
 	left: 25em;
-	background-color: rgba(0, 255, 0, .25);
+	background-color: $circle2;
 
 	#collection {
 		margin-left: 15em;
@@ -52,8 +52,9 @@
 	}
 
 	p {
-		padding-left: 5em;
-		font-weight: bold;
+		// top: -20em;
+		// padding-left: 5em;
+		// font-weight: bold;
 	}
 }
 
@@ -62,13 +63,12 @@
 // ********************************************************
 
 #c3 {
-	top: 20rem;
+	top: -15rem;
 	left: 10rem;
-	background-color: rgba(0, 0, 255, 0.25);
+	background-color: $circle3;
 
 	p {
-		padding-top: 30em;
-		padding-left: 3em;
+		// padding-left: 3em;
 		font-weight: bold;
 	}
 }
